@@ -1,5 +1,3 @@
-Here’s an updated project description that includes the GPLink feature:
-
 ---
 
 # 🪙 Coin System Discord Bot with GPLink Integration
@@ -13,7 +11,6 @@ A feature-rich Discord bot that manages a coin-based reward system, integrated w
 - **🔧 Admin Tools**: Commands for administrators to add or remove coins from any user’s balance.
 - **📊 Coin Tracking**: Keeps track of each user’s coin balance with real-time updates.
 - **🔗 GPLink Integration**: Automatically generates and shortens voucher URLs via GPLink.
-- **🎉 Invite-based Rewards (Optional)**: Earn coins by inviting users to the server (can be toggled off).
 
 ## Commands
 - `/daily` - Claim your daily coins.
@@ -35,15 +32,13 @@ A feature-rich Discord bot that manages a coin-based reward system, integrated w
 2. Install dependencies: `npm install`
 3. Add your credentials to a `.env` file:
     ```
-    DISCORD_TOKEN=your-bot-token
-    GP_LINK_API_KEY=your-gplink-api-key
+    DISCORD_BOT_TOKEN=  
+    CLIENT_ID=   
+    GUILD_ID= 
+    PATEBIN_API=   
+    GPLINKS_API=   
     ```
 4. Deploy commands using: `node deploy.js`
 5. Start the bot: `node index.js`
 
-## License
-This project is licensed under the MIT License.
-
 ---
-
-This now includes the GPLink feature that shortens voucher URLs. Let me know if you'd like to adjust anything else!
