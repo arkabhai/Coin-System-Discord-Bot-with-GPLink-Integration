@@ -30,7 +30,8 @@ A feature-rich Discord bot that manages a coin-based reward system, integrated w
 ## Setup
 1. Clone the repository.
 2. Install dependencies: `npm install`
-3. Add your credentials to a `.env` file:
+3. Rename the `example.env` to `.env`
+4. Add your credentials to a `.env` file:
     ```
     DISCORD_BOT_TOKEN=  
     CLIENT_ID=   
@@ -38,7 +39,7 @@ A feature-rich Discord bot that manages a coin-based reward system, integrated w
     PATEBIN_API=   
     GPLINKS_API=   
     ```
-4. Deploy commands using: `node deploy.js`
-5. Start the bot: `node index.js`
+5. Deploy commands using: `node deploy.js`
+6. Start the bot: `node index.js`
 
 ---
