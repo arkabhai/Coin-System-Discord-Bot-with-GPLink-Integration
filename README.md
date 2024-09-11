@@ -28,7 +28,7 @@ A feature-rich Discord bot that manages a coin-based reward system, integrated w
 - **GPLink API**: Used to shorten URLs for voucher claims, creating a clean and user-friendly link.
 
 ## Setup
-1. Clone the repository or choose a release from .
+1. Clone the repository or choose a release from `https://github.com/arkabhai/Coin-System-Discord-Bot-with-GPLink-Integration/releases/tag/v1.0.0`.
 2. Install dependencies: `npm install`
 3. Rename the `example.env` to `.env`
 4. Add your credentials to a `.env` file:
